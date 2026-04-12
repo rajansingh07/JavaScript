@@ -4,12 +4,6 @@ Learn JavaScript from beginner to advanced with structured notes, code examples,
 
 ---
 
-## 🌐 Live Demo
-
-👉 Add your deployed portfolio/project link here (recommended)
-
----
-
 ## 🎥 Learning Source
 
 This project follows a structured JavaScript playlist covering fundamentals to advanced concepts:
