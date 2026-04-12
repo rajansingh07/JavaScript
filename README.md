@@ -1,16 +1,26 @@
-# 📘 JavaScript Complete Learning Journey
+# 📘 JavaScript Complete Learning Journey | Notes, Code & Projects (Beginner to Advanced)
 
-This repository documents my complete journey of learning JavaScript from beginner to advanced. It includes notes, code examples, and small practice programs based on a structured playlist.
+Learn JavaScript from beginner to advanced with structured notes, code examples, and real-world projects. This repository is designed for students and developers preparing for frontend development, Node.js, and coding interviews.
+
+---
+
+## 🌐 Live Demo
+
+👉 Add your deployed portfolio/project link here (recommended)
 
 ---
 
 ## 🎥 Learning Source
 
-I am learning JavaScript from this YouTube playlist:
+This project follows a structured JavaScript playlist covering fundamentals to advanced concepts:
 
 👉 https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37
 
-This playlist covers JavaScript fundamentals, core concepts, and advanced topics with practical examples.
+Includes:
+
+* Core JavaScript concepts
+* Real-world examples
+* Interview-focused explanations
 
 ---
 
@@ -20,7 +30,7 @@ This playlist covers JavaScript fundamentals, core concepts, and advanced topics
 
 Check installation:
 
-```bash id="m0v8w0"
+```bash
 node -v
 ```
 
@@ -28,13 +38,13 @@ node -v
 
 ### 2. Run Any File
 
-```bash id="98h0mt"
+```bash
 node filename.js
 ```
 
 Example:
 
-```bash id="u5h19m"
+```bash
 node day1.js
 ```
 
@@ -50,16 +60,12 @@ node day1.js
 * Operators
 * Comparison Operators
 
----
-
 ### 🟡 Phase 2: Control Flow
 
 * `if / else`
 * `switch`
 * Truthy / Falsy values
 * Logical operators
-
----
 
 ### 🔵 Phase 3: Loops & Functions
 
@@ -68,8 +74,6 @@ node day1.js
 * Arrow functions
 * Scope
 
----
-
 ### 🟣 Phase 4: Arrays & Objects
 
 * Arrays (methods, iteration)
@@ -77,15 +81,11 @@ node day1.js
 * Destructuring
 * Spread & Rest operators
 
----
-
 ### 🟠 Phase 5: DOM & Events
 
 * DOM manipulation
 * Event handling
 * Forms & input handling
-
----
 
 ### 🔴 Phase 6: Advanced JavaScript
 
@@ -94,20 +94,17 @@ node day1.js
 * Closures
 * Hoisting
 
----
-
 ### ⚫ Phase 7: Async JavaScript
 
 * Callbacks
 * Promises
 * `async / await`
 * Fetch API
-
 ---
 
 ## 🧪 Practice Approach
 
-* Write code while watching videos
+* Write code while learning
 * Modify examples to test understanding
 * Build small projects after each phase
 * Avoid copy-paste
@@ -116,24 +113,26 @@ node day1.js
 
 ## 📚 Documentation
 
-* TC39 – JavaScript standards
-* MDN Web Docs – Best resource for developers
+* TC39 → JavaScript standards
+* MDN Web Docs → Best resource for developers
 
 ---
 
 ## 📁 Folder Structure
 
-```bash id="8kp6ji"
+```bash
 JavaScript/
 │── day1.js
 │── day2.js
 │── day3.js
 │── ...
-│── projects/
-│    ├── calculator/
-│    ├── todo-app/
-│    └── mini-games/
 ```
+
+---
+
+## 🔍 Keywords
+
+JavaScript notes, JavaScript tutorial, learn JavaScript, frontend development, Node.js, JavaScript projects, coding interview preparation
 
 ---
 
@@ -141,7 +140,7 @@ JavaScript/
 
 * Use `"use strict"` for better coding practices
 * Prefer `let` and `const` over `var`
-* Use `console.log()` for debugging in Node.js
+* Use `console.log()` for debugging
 * `alert()` works only in browser
 
 ---
@@ -149,21 +148,40 @@ JavaScript/
 ## 🎯 Goals
 
 * Build strong JavaScript fundamentals
-* Prepare for frontend frameworks like React
+* Prepare for frontend frameworks like React & Next
 * Learn backend with Node.js
 * Build real-world projects
-
----
-
-## 📌 Author
-
-**Rajan Kumar**
 
 ---
 
 ## ⭐ Progress Tracker
 
 * ✅ Day 1: Variables & Data Types
-* ⏳ Day 2: Operators & Comparisons
-* ⏳ Day 3: Control Flow
+* ✅ Day 2: Veriable, Data Types and Type Checking
+* ✅ Day 3: Data Type, Stack & Heap Memory
+* ✅ Day 4: String
 * ⏳ Coming next...
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Rajan Kumar**
+
+* GitHub: https://github.com/rajansingh07
+* LinkedIn: https://www.linkedin.com/in/rajan-singh07
+
+---
