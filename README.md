@@ -154,6 +154,7 @@ JavaScript notes, JavaScript tutorial, learn JavaScript, frontend development, N
 * ✅ Day 2: Veriable, Data Types and Type Checking
 * ✅ Day 3: Data Type, Stack & Heap Memory
 * ✅ Day 4: String
+* ✅ Day 5: Numbers & Math
 * ⏳ Coming next...
 
 ---
