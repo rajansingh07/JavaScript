@@ -106,7 +106,10 @@ Final Output Range: 10 to 20 (inclusive)
 
 // SECTION 4: REAL-LIFE EXAMPLES (VERY IMPORTANT)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e358b2fa8dc82c0ec71baca02a4627405351ee7f
 // 1. E-commerce Price Formatting
 let price = 999.5;
 
