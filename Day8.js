@@ -132,3 +132,44 @@ console.log(website);
 // 5. Rename with default value
 const { website: youtube = "YouTube" } = course;
 console.log(youtube);
+
+
+// ==============================
+// Practise work
+// ==============================
+
+const student = {
+    name : "Rajan Kumar",
+    age: 22,
+    course : "B.Tech in Ex",
+    isPassed : "Yes"
+}
+
+const {name : fullName } = student;
+console.log(fullName)
+
+let {age} = student;
+age = 23 // This is change local value only for temproary basis
+
+student.age = 23; // This is change the object value
+console.log(age)
+
+const car = new Object();
+
+car.brand = "Mahindra";
+car.model = "2021";
+car.color = "Black";
+
+const {brand, model, color} = car
+
+console.log(brand);
+console.log(model);
+console.log(color)
+
+console.log(student.name);
+console.log(student["age"])
+
+student.greet = function () {
+    console.log(`Hello ${student.name}`);
+}
+student.greet();
