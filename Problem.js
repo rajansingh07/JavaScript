@@ -20,7 +20,7 @@ let x = 3, y = 12, z = 9;
 // console.log(Math.max(x,y,z))
 
 
-let n = 2
+let n = 2;
 
 let isPrime = true;
 
