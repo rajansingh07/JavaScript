@@ -1,6 +1,6 @@
 // Control flow 
 
-// if 
+// if
 const isUserloggedIn = true
     const username = "Rajan"
 

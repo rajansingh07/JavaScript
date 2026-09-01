@@ -1,4 +1,4 @@
-const usersEmail = false
+const usersEmail = false 
 
 if (userEmail) {
     console.log("I got the user email")
