@@ -20,7 +20,7 @@ const newNums = Nums.filter( (num) => {
 
 // console.log(newNums)
 
-const newNum = []
+const newNum = []  
 
 Nums.forEach( (numbers) => {
     if(numbers > 4) {
@@ -46,4 +46,23 @@ let userBooks = books.filter( (bk) => bk.genre === 'History')
 userBooks = books.filter( (bk) => bk.publish >= 2000 && bk.genre === 'Non-Friction')
 
 
-console.log(userBooks)
+// console.log(userBooks)
+
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const Numbers = myNumbers.map( (newNums) => newNums + 10)
+
+// console.log(Numbers)
+
+const numbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// const myNumbs = numbs.forEach( (numbes) => 
+// console.log(numbes + 10)
+// );
+
+
+const newNubers = myNumbers.map( (num) => num * 10) 
+                            .map((num) => num + 1)
+                            .filter( (num) => num >= 40)
+
+console.log(newNubers)
