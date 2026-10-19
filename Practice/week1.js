@@ -89,7 +89,7 @@ let product = {
 };
 
 for (const key in product) {
-    if(typeof product[key] === 'number') {
+    if (typeof product[key] === 'number') {
         console.log(`${key}: ${product[key]}`);
     }
 }
@@ -103,10 +103,72 @@ let company = {
         { name: "C", salary: 15000 }
     ]
 };
-let summ = 0; 
+let summ = 0;
 for (const departments in company) {
     for (const employees of company[departments]) {
         summ += employees.salary
     }
 }
 console.log(summ);
+
+
+let stock = {
+    name: "Rajan",
+
+    greet() {
+        console.log(`Hello, ${this.name}`);
+    }
+}
+stock.greet();
+
+let even = [12, 7, 8, 3, 10, 5]
+
+for (let evens of even) {
+    if (evens % 2 === 0) {
+        console.log(evens);
+    }
+}
+
+let salary = [10000, 15000, 20000, 25000]
+let high = 0
+for (let i = 0; i < salary.length; i++) {
+    if (salary[i] >= high) {
+        high = salary[i]
+    }
+}
+
+console.log(`Highest sallary is: ${high}`);
+
+
+let employees = [
+    { name: "Rajan", salary: 10000 },
+    { name: "Priya", salary: 25000 },
+    { name: "Anushka", salary: 30000 },
+    { name: "Rajiv", salary: 20000 }
+];
+
+let highest = employees[0];
+for (const employee of employees) {
+    if (employee.salary >= highest.salary) {
+        highest = employee
+    }
+}
+
+console.log(`Highest paid: ${highest.name}`);
+console.log(`Salary: ${highest.salary}`);
+
+let total = 0;
+for (const employee of employees) {
+    total = total + employee.salary
+}
+
+console.log(`Total Salary of employees : ${total}`);
+
+
+let numbers = [2, 4, 6, 8, 10];
+let square = [];
+for (let i = 0; i < numbers.length; i++) {
+    square.push(numbers[i] * numbers[i])
+}
+
+console.log(`Square of ${numbers} = ${square}`);
