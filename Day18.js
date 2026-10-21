@@ -4,7 +4,7 @@
 
 const arr = [1, 2, 3, 4, 5, 6]
 
-// for(const iterator of object) { 
+// for(const iterator of objeAct) { 
 // }
 
 for(const num of arr) {
