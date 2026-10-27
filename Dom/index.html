@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Practice</title>
+</head>
+<body style="background: #212121; color: white;">
+  <h1 class="headline" id="titleOne">Hello</h1>
+  <div class="parent" id="myCl">
+    <div class="day" id="div">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thursday</div>
+  </div>
+  <ul class="list">
+    <li class="listItem">Home</li>
+    <li class="listItem">About</li>
+    <li class="listItem">Contact</li>
+    <li class="listItem">Support</li>
+  </ul>
+
+  <script>
+    const fist = document.getElementById('titleOne')
+    fist.style.color = "red"
+    fist.textContent = "Hello, user"
+    let list = document.getElementsByTagName('ul');
+    for (let num of list){
+      console.log(num);
+    }
+    let myList = document.getElementsByClassName('listItem')
+    console.log(myList);
+    let givenList = document.querySelectorAll('li')
+    console.log(givenList);
+  </script>
+</body> 
+</html>
