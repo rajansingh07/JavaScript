@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="headline">Hello,user</h1>
+
+    <ul id="day">
+        <li class="dayItem">Mon</li>
+        <li class="dayItem">Tue</li>
+        <li class="dayItem">Wed</li>
+        <li class="dayItem">Thu</li>
+        <li class="dayItem">Fri</li>
+    </ul>
+
+    <ul id="navbar"></ul>
+    
+    <script>
+        let head = document.getElementById('headline');
+        head.style.color = 'gray';
+        const username = "Rajan";
+        head.style.fontSize = "20px";
+        head.textContent = `Hi ${username}`;
+
+        let headTwo = document.createElement("h2");
+        headTwo.textContent = `Welcome to ${username}'s website`
+        headTwo.style.fontSize = '16px'
+        headTwo.style.color = 'blue'
+        head.after(headTwo)
+        
+
+        const items = document.getElementsByClassName('dayItem');
+        // item[0].textContent = 'Home'
+        // item[1].textContent = 'About'
+        // item[2].textContent = 'Contact'
+        // item[3].textContent = 'Support'
+        
+        const names = ["Home", 'About', "Contact", "Portfolio", "Support"];
+        for(let i = 0; i < items.length; i++){
+            items[i].textContent = names[i];
+            items[i].style.color = "gray";
+        }
+
+        const navbar = document.getElementById('navbar');
+        let navItem = document.createElement('li');
+        const navItems = ["Home", "About", "Contact", "Support", "Portfolio"];
+        for (const item of navItems) {
+            let li = document.createElement('li');
+            li.textContent = item;
+            li.style.backgroundColor = 'lightgray';
+            li.style.fontSize = '17px';
+            li.style.padding = '5px';
+            li.style.margin = '5px'
+            navbar.appendChild(li);
+        }
+
+    </script>
+</body>
+</html>
