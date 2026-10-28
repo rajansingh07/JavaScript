@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="headline"></h1>
+    <ul id="list"></ul>
+
+    <script>
+        let head = document.getElementById('headline');
+        const username = "Raj";
+        head.textContent = `Welcome to ${username}'s Website`;
+        head.style.fontSize = "15px";
+
+        let list = document.getElementById('list');
+        const months = ["Jan", "Feb", "Mar", "Apr", "May"];
+        for (const item of months) {
+            let li = document.createElement('li');
+            li.textContent = item;
+            list.appendChild(li);
+        }
+        list.className = "listItem";
+        // list.classList.add("list");
+        console.log(list);
+        
+        let item = list.querySelectorAll('li');
+        let first = document.createElement('li');
+        first.textContent = "Months Name";
+        item[0].before(first);
+        
+    </script>
+</body> 
+</html>
